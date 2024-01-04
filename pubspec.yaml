@@ -71,6 +71,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
+    - assets/data.json
     - assets/page-1/images/vector.png
     - assets/page-1/images/vector-avg.png
     - assets/page-1/images/group-14.png

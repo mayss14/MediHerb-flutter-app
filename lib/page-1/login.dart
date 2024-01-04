@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/page-1/find-plants.dart';
-import 'package:myapp/page-1/frame-1.dart';
+import 'package:myapp/page-1/catalogue.dart';
+import 'package:myapp/page-1/pageAcceuil.dart';
 import 'package:myapp/page-1/signup.dart';
 
 import 'package:myapp/utils.dart';

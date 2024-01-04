@@ -1,0 +1,284 @@
+{
+  "plantes_medicinales": [
+    {
+      "id": 1,
+      "nom": "Ail",
+      "description": "L'ail est une plante bulbeuse utilisée pour ses propriétés antibactériennes et anti-inflammatoires. Elle est souvent employée dans le traitement de l'hypertension et des infections.",
+      "proprietes": ["antibactérien", "anti-inflammatoire"],
+      "utilisations": ["hypertension", "infections"],
+      "precautions": ["peut causer des maux d'estomac"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "nom": "Camomille",
+      "description": "La camomille, aux fleurs apaisantes, est reconnue pour ses propriétés calmantes et anti-anxiété. Elle est utilisée pour traiter l'insomnie et les problèmes digestifs.",
+      "proprietes": ["calmante", "anti-anxiété"],
+      "utilisations": ["insomnie", "problèmes digestifs"],
+      "precautions": ["réactions allergiques possibles"],
+      "interactions_medicamenteuses": ["sédatifs"],
+      "url_photo" : "https://images.unsplash.com/photo-1623171404303-5f3bd1949ca0?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "nom": "Gingembre",
+      "description": "Le gingembre, plante rhizomateuse, possède des propriétés anti-nauséeuses et anti-inflammatoires. Il est utilisé contre les nausées et les rhumes.",
+      "proprietes": ["anti-nauséeux", "anti-inflammatoire"],
+      "utilisations": ["nausées", "rhumes"],
+      "precautions": ["peut augmenter le risque de saignement"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://images.unsplash.com/photo-1610450622221-90387799d7f5?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "nom": "Echinacée",
+      "description": "L'échinacée, plante à fleurs, stimule le système immunitaire et possède des propriétés anti-inflammatoires. Elle est utilisée contre les infections respiratoires et les rhumes.",
+      "proprietes": ["stimule le système immunitaire", "anti-inflammatoire"],
+      "utilisations": ["infections respiratoires", "rhumes"],
+      "precautions": ["à éviter en cas de maladies auto-immunes"],
+      "interactions_medicamenteuses": ["immunosuppresseurs"],
+      "url_photo" : "https://images.unsplash.com/photo-1590354501456-74e9ef35d486?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+     "id": 5,
+      "nom": "Curcuma",
+      "description": "Le curcuma, de la famille du gingembre, est reconnu pour ses propriétés anti-inflammatoires et antioxydantes. Il est utilisé contre l'arthrite et les problèmes digestifs.",
+      "proprietes": ["anti-inflammatoire", "antioxydant"],
+      "utilisations": ["arthrite", "problèmes digestifs"],
+      "precautions": ["à consommer avec du poivre pour une meilleure absorption"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTzlBPRcSigTa35jIfzNRkXR416v9t9jEZroM0hQEQBuFhIqGf4fzaXWWX7WGEOyLP7zrjHIkk8euuaHFo"
+    },
+    {
+      "id": 6,
+      "nom": "Valériane",
+      "description": "La valériane, plante herbacée, possède des propriétés sédatives et anxiolytiques. Elle est utilisée contre l'insomnie et l'anxiété.",
+      "proprietes": ["sédative", "anxiolytique"],
+      "utilisations": ["insomnie", "anxiété"],
+      "precautions": ["peut provoquer de la somnolence"],
+      "interactions_medicamenteuses": ["sédatifs"],
+      "url_photo" : "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQDOaAZ9chtP5cccIdz2UU5Z1027xcrD6ulVNuRQ1KmYsr1jOoddVkxYSiHt9gOL4OdHJt6DWNYvBeAooU"
+    },
+    {
+      "id": 7,
+      "nom": "Millepertuis",
+      "description": "Le millepertuis, aux fleurs jaunes, agit comme un antidépresseur léger et possède des propriétés anti-anxiété. Il est utilisé contre la dépression légère et les troubles de l'humeur.",
+      "proprietes": ["antidépresseur léger", "anti-anxiété"],
+      "utilisations": ["dépression légère", "troubles de l'humeur"],
+      "precautions": ["peut interagir avec certains médicaments"],
+      "interactions_medicamenteuses": ["antidépresseurs"],
+      "url_photo" : "https://images.unsplash.com/photo-1626624780829-8d959d03c5d9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "nom": "Menthe",
+      "description": "La menthe, plante aromatique, est connue pour ses propriétés digestives et rafraîchissantes. Elle est utilisée contre les maux de tête et l'indigestion.",
+      "proprietes": ["digestive", "rafraîchissante"],
+      "utilisations": ["maux de tête", "indigestion"],
+      "precautions": ["pas recommandée pendant la grossesse"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://images.unsplash.com/photo-1588908933351-eeb8cd4c4521?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "nom": "Verveine",
+      "description": "La verveine, aux feuilles apaisantes, possède des propriétés apaisantes et digestives. Elle est utilisée contre les troubles digestifs et l'anxiété.",
+      "proprietes": ["apaisante", "digestive"],
+      "utilisations": ["troubles digestifs", "anxiété"],
+      "precautions": ["pas de précautions majeures connues"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://images.unsplash.com/photo-1629129082184-7eb0bcfbf9d9?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 10,
+      "nom": "Romarin",
+      "description": "Le romarin, arbuste aromatique aux feuilles persistantes, a des propriétés stimulantes et antioxydantes. Il est utilisé pour la stimulation mentale et les problèmes digestifs.",
+      "proprietes": ["stimulant", "antioxydant"],
+      "utilisations": ["stimulation mentale", "problèmes digestifs"],
+      "precautions": ["éviter en cas de troubles de la pression artérielle"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://images.unsplash.com/photo-1582745741856-1a5d68158ba3?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+     "id": 11,
+      "nom": "Zaatar",
+      "description": "Le zaatar est un mélange d'herbes aromatiques, dont le thym, le sumac et le sésame. Il possède des propriétés antibactériennes et stimulantes, utilisées pour le renforcement immunitaire et l'aromatisation des plats.",
+      "proprietes": ["antibactérien", "stimulant"],
+      "utilisations": ["renforcement immunitaire", "aromatisation des plats"],
+      "precautions": ["aucune précaution majeure connue"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://annapolisseeds.com/cdn/shop/products/608-2_1200x800.jpg?v=1640800132"
+    },
+    {
+      "id": 12,
+      "nom": "Armoise",
+      "description": "L'armoise, plante herbacée aux feuilles argentées, possède des propriétés anti-inflammatoires et antiparasitaires. Elle est utilisée pour les problèmes menstruels et le traitement des parasites.",
+      "proprietes": ["anti-inflammatoire", "antiparasitaire"],
+      "utilisations": ["problèmes menstruels", "traitement des parasites"],
+      "precautions": ["éviter pendant la grossesse"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://www.greennursery.ma/wp-content/uploads/2022/12/artemenisia-vulgaris.jpg"
+    },
+    {
+      "id": 13,
+      "nom": "Absinthe",
+      "description": "L'absinthe, malgré son nom associé à une boisson alcoolisée, est utilisée en phytothérapie pour stimuler l'appétit. Elle est réputée pour favoriser la production sans mentionner de distribution géographique.",
+      "proprietes": ["stimulant de l'appétit"],
+      "utilisations": ["stimulation de l'appétit"],
+      "precautions": ["utilisation prudente due à la réputation sulfureuse"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://i.etsystatic.com/6661027/r/il/845d43/685518848/il_794xN.685518848_alcf.jpg"
+    },
+    {
+      "id": 14,
+      "nom": "Actée à grappes noires",
+      "description": "L'actée à grappes noires est utilisée pour le soulagement des troubles liés à la ménopause, en particulier les bouffées de chaleur, sans mention de distribution géographique.",
+      "proprietes": ["soulagement des troubles liés à la ménopause"],
+      "utilisations": ["bouffées de chaleur"],
+      "precautions": ["utilisation avec précaution pendant la ménopause"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://img.passeportsante.net/1200x675/2021-05-03/i104145-actee-grappes-noires-ps.webp"
+    },
+    {
+      "id": 15,
+      "nom": "Yam (igname sauvage)",
+      "description": "La tige souterraine de l’igname sauvage (yam ou wild yam) est présente dans de nombreux compléments alimentaires, sans mention de distribution géographique. Elle est utilisée dans les compléments alimentaires.",
+      "proprietes": ["utilisé dans les compléments alimentaires"],
+      "utilisations": ["compléments alimentaires"],
+      "precautions": ["aucune précaution majeure connue"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://files.blogs.illinois.edu/files/6367/205546/42366.jpg"
+    },
+    {
+      "id": 16,
+      "nom": "Fenugrec",
+      "description": "Le fenugrec est une plante largement cultivée dans le Bassin méditerranéen, en Inde et en Chine. Il possède des propriétés anti-inflammatoires et antioxydantes, utilisées pour le soulagement des troubles digestifs et la réduction de l'inflammation.",
+      "proprietes": ["anti-inflammatoire", "antioxydant"],
+      "utilisations": ["soulagement des troubles digestifs", "réduction de l'inflammation"],
+      "precautions": ["utilisation prudente chez les femmes enceintes"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://www.lero.fr/wp-content/uploads/2023/02/AdobeStock_267658317-scaled-1-1024x728.jpeg"
+    },
+    {
+      "id": 17,
+      "nom": "Sauge",
+      "description": "La sauge est une plante médicinale par excellence, utilisée pour ses propriétés antisept",
+      "proprietes": ["antiseptique", "anti-inflammatoire", "stimulant"],
+      "utilisations": ["soulagement des maux de gorge", "stimulation digestive"],
+      "precautions": ["utilisation modérée recommandée"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://verdurable.fr/wp-content/uploads/2020/04/sauge-maj.jpg"
+    },
+    {
+     "id": 18,
+      "nom": "Lavande",
+      "description": "La lavande est une plante aromatique aux multiples usages, reconnue en phytothérapie pour ses propriétés relaxantes, apaisantes et antiseptiques. Elle est utilisée pour le soulagement du stress, sans mention de distribution géographique.",
+      "proprietes": ["relaxante", "apaisante", "antiseptique"],
+      "utilisations": ["calming", "soulagement du stress"],
+      "precautions": ["utilisation externe préférée"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://images.unsplash.com/photo-1628156904015-28d5c8f6f790?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+     "id": 19,
+      "nom": "Ortie",
+      "description": "L'ortie est une plante utilisée en phytothérapie pour ses propriétés diurétiques, anti-inflammatoires et reminéralisantes. Elle est employée dans le traitement des infections urinaires et le soulagement des douleurs articulaires.",
+      "proprietes": ["diurétique", "anti-inflammatoire", "reminéralisant"],
+      "utilisations": ["traitement des infections urinaires", "soulagement des douleurs articulaires"],
+      "precautions": ["utilisation prudente en cas d'allergie"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://images.unsplash.com/photo-1526127410-01ef03017f7b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 20,
+      "nom": "Origan",
+      "description": "L'origan, herbe aromatique aux propriétés antiseptiques et digestives, est utilisé en phytothérapie pour ses bienfaits sur la digestion et le système immunitaire. Il est employé pour l'amélioration de la digestion et le soutien du système immunitaire.",
+      "proprietes": ["antiseptique", "digestif", "stimulant immunitaire"],
+      "utilisations": ["amélioration de la digestion", "soutien du système immunitaire"],
+      "precautions": ["utilisation modérée recommandée"],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://www.plantes-et-sante.fr/images/articles/origan-un-antiviral-de-choc.jpg_720_1000_2"
+    },
+    {
+      "id": 21,
+      "nom": "Saule blanc",
+      "description": "Le saule blanc possède des propriétés anti-inflammatoires et analgésiques. Il est souvent utilisé pour soulager les douleurs articulaires et les maux de tête.",
+      "proprietes": ["anti-inflammatoire", "analgésique"],
+      "utilisations": ["douleurs articulaires", "maux de tête"],
+      "precautions": ["Éviter en cas d'allergie à l'aspirine"],
+      "interactions_medicamenteuses": ["anticoagulants"],
+      "url_photo" : "https://www.consoglobe.com/wp-content/uploads/2020/03/saule-blanc_1323689303_ban.jpg.webp"
+    },
+    {
+      "id": 22,
+      "nom": "Aubépine",
+      "description": "L'aubépine est connue pour ses propriétés cardio-protectrices et apaisantes. Elle est utilisée pour traiter les problèmes cardiaques légers et l'anxiété.",
+      "proprietes": ["cardio-protecteur", "apaisant"],
+      "utilisations": ["problèmes cardiaques légers", "anxiété"],
+      "precautions": ["Consultez un professionnel de la santé en cas de problèmes cardiaques graves."],
+      "interactions_medicamenteuses": ["certains médicaments cardiaques"],
+      "url_photo" : "https://www.phytonut.com/blog/wp-content/uploads/2022/09/aubepine-fruits.jpg"
+    },
+    {
+      "id": 23,
+      "nom": "Feuille de framboisier",
+      "description": "Les feuilles de framboisier sont reconnues pour leurs propriétés tonifiantes utiles pendant la grossesse. Elles sont souvent utilisées pour renforcer l'utérus.",
+      "proprietes": ["tonifiant", "soutien de l'utérus"],
+      "utilisations": ["grossesse", "soutien de l'utérus"],
+      "precautions": ["À utiliser avec précaution pendant la grossesse, consultez un professionnel de la santé."],
+      "interactions_medicamenteuses": [],
+      "url_photo" : "https://media.equilibre-cbd.com/wp-content/uploads/2023/08/14104506/feuille-de-framboisier-fumer-2.jpeg"
+    },
+    {
+      "id": 24,
+      "nom": "Aloe Vera",
+      "description": "L'Aloe Vera est une plante aux multiples usages, connue pour ses propriétés apaisantes sur la peau et ses bienfaits pour la digestion.",
+      "proprietes": ["apaisant", "bénéfique pour la digestion"],
+      "utilisations": ["soins de la peau", "problèmes digestifs"],
+      "precautions": ["Éviter l'ingestion excessive, peut avoir des effets laxatifs."],
+      "interactions_medicamenteuses": ["peu d'interactions connues"],
+      "url_photo" : "https://plus.unsplash.com/premium_photo-1673818150416-7b96596cfdf9?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 25,
+      "nom": "Hibiscus",
+      "description": "Les fleurs d'Hibiscus sont utilisées pour leurs propriétés antioxydantes et leur capacité à soutenir la santé cardiovasculaire.",
+      "proprietes": ["antioxydant", "soutien cardiovasculaire"],
+      "utilisations": ["bienfaits pour le cœur", "santé cardiovasculaire"],
+      "precautions": ["Consultez un professionnel de la santé en cas de problèmes cardiaques."],
+      "interactions_medicamenteuses": ["peu d'interactions connues"],
+      "url_photo" : "https://images.unsplash.com/photo-1622397178204-cd98013590a1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 26,
+      "nom": "Rhodiola rosea",
+      "description": "La Rhodiola rosea, également appelée \"racine d'or,\" est utilisée pour ses propriétés adaptogènes, aidant à lutter contre le stress et la fatigue mentale.",
+      "proprietes": ["adaptogène", "anti-stress"],
+      "utilisations": ["gestion du stress", "fatigue mentale"],
+      "precautions": ["utilisation prudente en cas de troubles du sommeil"],
+      "interactions_medicamenteuses": ["peu d'interactions connues"],
+      "url_photo" : "https://fitorenutrition.com/cdn/shop/articles/9_1200x.jpg?v=1643323924"
+    },
+    {
+      "id": 27,
+      "nom": "Ginseng",
+      "description": "Le ginseng est une plante adaptogène réputée pour ses effets énergisants et ses bienfaits pour l'immunité.",
+      "proprietes": ["adaptogène", "énergisant"],
+      "utilisations": ["augmentation de l'énergie", "renforcement de l'immunité"],
+      "precautions": ["éviter en cas d'hypertension"],
+      "interactions_medicamenteuses": ["peu d'interactions connues"],
+      "url_photo" : "https://www.bhg.com/thmb/MgFSuq2-6fIW8noBFhQ2DSNMcrs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-471194514-2ed618b4108041cebcab5178237a3628.jpg"
+    },
+    {
+      "id": 28,
+      "nom": "Gotu kola",
+      "description": "Le Gotu kola est utilisé traditionnellement pour ses propriétés favorisant la circulation sanguine et ses effets bénéfiques sur la mémoire.",
+      "proprietes": ["circulation sanguine", "amélioration de la mémoire"],
+      "utilisations": ["problèmes de circulation", "soutien cognitif"],
+      "precautions": ["utilisation prudente en cas de troubles hépatiques"],
+      "interactions_medicamenteuses": ["peu d'interactions connues"],
+      "url_photo" : "https://www.verywellhealth.com/thmb/H7HmwB9ylsSxGbmxNdd7kcXEyCM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-613885714-5adc843ca474be003642b720.jpg"
+    }
+  ]
+}
