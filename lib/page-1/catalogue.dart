@@ -8,6 +8,7 @@ import 'package:myapp/page-1/gridView.dart';
 import 'package:myapp/page-1/plantCard.dart';
 import 'package:myapp/page-1/plantModel.dart';
 import 'package:myapp/page-1/profile.dart';
+import 'package:myapp/tflite/model.dart';
 import 'package:myapp/utils.dart';
 
 class Catalogue extends StatefulWidget {
@@ -132,6 +133,23 @@ class _CatalogueState extends State<Catalogue> {
                             ),
                           ),
                           Spacer(),
+                          Container(
+                            margin:
+                                EdgeInsets.only(top: 20, bottom: 20, right: 5),
+                            child: IconButton(
+                              icon: Icon(Icons.scanner),
+                              color: Color.fromARGB(255, 33, 49, 23),
+                              iconSize: 32,
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => Home(),
+                                  ),
+                                );
+                              },
+                            ),
+                          ),
                           Container(
                             margin:
                                 EdgeInsets.only(top: 20, bottom: 20, right: 5),
