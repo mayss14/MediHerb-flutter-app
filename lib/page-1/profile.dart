@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:myapp/page-1/UserModel.dart';
 import 'package:myapp/page-1/catalogue.dart';
+import 'package:myapp/page-1/login.dart';
 import 'package:myapp/page-1/multiselect.dart';
 
 class UserProfile extends StatefulWidget {
@@ -225,6 +226,41 @@ class _UserProfileState extends State<UserProfile> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: const Text('Set Health Needs',
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold)),
+                            ),
+                          ],
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 48, 92, 46),
+                          onPrimary: Colors.white,
+                          minimumSize: Size(150, 55),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.fromLTRB(
+                        15 * fem, 50 * fem, 33 * fem, 0 * fem),
+                    width: double.infinity,
+                    height: 55 * fem,
+                    child: Center(
+                      child: ElevatedButton(
+                        onPressed: () async {
+                          await FirebaseAuth.instance.signOut();
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Login()));
+                        },
+                        child: Row(
+                          children: [
+                            Icon(Icons.logout),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: const Text('lOG OUT',
                                   style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold)),

@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
     Tflite.close();
   }
 
-  classifyImage(File image) async {
+  classifyImage(image) async {
     //this function runs the model on the image
     var output = await Tflite.runModelOnImage(
       path: image.path,
